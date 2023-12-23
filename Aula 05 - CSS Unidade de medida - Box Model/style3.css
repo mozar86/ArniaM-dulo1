@@ -1,0 +1,94 @@
+/*Primeira atividade*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.ex1 {
+    width: 150px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+    border: 2px solid;
+    border-color: blue transparent green red;
+    border-style: dashed none double dotted;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/*Segunda atividade*/
+
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+a { color: inherit; 
+    text-decoration: none;
+}
+
+.c1{
+    list-style: none;
+    border-width: 1px 2px 1px 1px;
+    border-color: black orange transparent black;
+    border-style: solid solid solid solid;
+    padding: 2px 2px 2px 2px;
+    margin-right: 70vw;        
+}
+
+.c2{
+    list-style: none;
+    border-width: 1px 2px 1px 1px;
+    border-color: black orange transparent black;
+    border-style: solid solid solid solid;
+    padding: 2px 2px 2px 2px;
+    margin-right: 70vw;      
+}
+
+.c3{
+    list-style: none;
+    border-width: 1px 2px 1px 1px;
+    border-color: black orange transparent black;
+    border-style: solid solid solid solid;
+    padding: 2px 2px 2px 2px; 
+    margin-right: 70vw;       
+}
+
+.c4{
+    list-style: none;
+    border-width: 1px 2px 1px 1px;
+    border-color: black orange transparent black;
+    border-style: solid solid solid solid;
+    padding: 2px 2px 2px 2px;  
+    margin-right: 70vw;      
+}
+
+.c5{
+    list-style: none;
+    border-width: 1px 2px 1px 1px;
+    border-color: black orange transparent black;
+    border-style: solid solid solid solid;
+    padding: 2px 2px 2px 2px;
+    margin-right: 70vw;        
+}
+
+.c6{
+    list-style: none;
+    border-width: 1px 2px 1px 1px;
+    border-color: black orange transparent black;
+    border-style: solid solid solid solid;
+    padding: 2px 2px 2px 2px;
+    margin-right: 70vw;        
+}
+
+.c7{
+    list-style: none;
+    border-width: 1px 2px 1px 1px;
+    border-color: black orange black black;
+    border-style: solid solid solid solid;
+    padding: 2px 2px 2px 2px;
+    margin-right: 70vw;  
+    margin-bottom: 10px;      
+}

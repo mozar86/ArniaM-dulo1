@@ -1,0 +1,19 @@
+/*padrão 1em=16px*/
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.conteudo1{
+    background-color: red;
+    font-size: 20px;
+    width: 10em;
+    height: 100px;
+}
+
+.conteudo2{
+    background-color: magenta;
+    font-size: 1rem;
+}

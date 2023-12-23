@@ -1,0 +1,14 @@
+.card {
+    width: 30%;
+    border-radius: 1em;
+    background-color: gainsboro;
+    padding: 1em;
+    text-align: center;
+}
+
+.card-image {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 0px #b4b4b44d;
+}

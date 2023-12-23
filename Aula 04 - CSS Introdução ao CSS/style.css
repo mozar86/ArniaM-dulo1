@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+    background-color: black;
+    //*Comentário CSS*/
+}
+
+h1 {
+    color: #2c6ba9;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+
+.texto {
+    color: aqua;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}

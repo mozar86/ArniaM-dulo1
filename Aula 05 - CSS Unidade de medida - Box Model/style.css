@@ -1,0 +1,26 @@
+* {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo1 {
+    background-color: red;
+    width: 300px;
+    height: 200px;
+}
+
+.conteudo2 {
+    background-color: magenta;
+    width: 50%;
+    
+}
+
+.conteudo3 {
+    background-color: green;
+    width: 50vw;
+    height: 100vh;
+}
+
+.conteudo4 {
+    background-color: blue;
+}
