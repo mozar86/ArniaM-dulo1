@@ -1,0 +1,44 @@
+.boss, .customer {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #8f8a8a;
+}
+
+.titulo-principal, .titulo-secundario {
+    color: #a10303;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.voltar {
+    color: #808080;
+}
+
+a {
+    color: red;
+    margin-bottom: 15px;
+}
+
+.cardapio, .item {
+    width: 40px;
+    height: 40px;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6 {
+    width: 500px;
+    font-size: 1.5em;
+    padding: 1.25em;
+}
+
+.margemgeral {
+    margin-left: 25px;
+}
+
+.xburger {
+    border-radius: 40px;
+}
