@@ -1,0 +1,14 @@
+th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  thead {
+    background-color: #3a3a4d;
+    color: white;
+  }
+  tbody:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  tbody:nth-child(odd) {
+    background-color: #fcfcfc;
+  }

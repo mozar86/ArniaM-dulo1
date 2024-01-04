@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloco {
+    width: 33%;
+    height: 100px;
+}
+.bloco1 {
+    background-color: red;
+}
+.bloco2 {
+    background-color: green;
+}
+.bloco3 {
+    background-color: blue;
+}
+.bloco4 {
+    background-color: blueviolet;
+}
+.bloco5 {
+    background-color: greenyellow;
+}
+.bloco6 {
+    background-color: magenta;
+}
+.bloco7 {
+    background-color: pink;
+}
