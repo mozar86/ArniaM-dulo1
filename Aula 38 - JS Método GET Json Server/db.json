@@ -1,0 +1,40 @@
+{
+    "posts":[
+        {
+            "id": 1,
+            "titulo": "Dólar acompanha exterior e sobe ante real após três sessões",
+            "autor": "Reuters, por Fabricio de Castro",
+            "imagem": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEK080RH_L.jpg",
+            "texto": "SÃO PAULO (Reuters) - O dólar à vista fechou a terça-feira em alta no Brasil, interrompendo uma sequência de três sessões consecutivas de queda, com as cotações em sintonia com o avanço da moeda norte-americana ante as demais divisas no exterior, em um dia marcado por nova alta dos rendimentos dos títulos norte-americanos."
+        },
+        {
+            "id": 2,
+            "titulo": "IPCA tende a fechar 2023 abaixo do limite da meta após dois anos de rompimento",
+            "autor": "Investing.com, por Jessica Bahia Melo",
+            "imagem": "https://i-invdn-com.investing.com/news/LYNXMPEB12022_L.jpg",
+            "texto": "Investing.com – A inflação ao consumidor brasileira deve ficar dentro do limite de tolerância da meta em 2023, após dois anos de rompimento. O indicador de dezembro será divulgado nesta quinta, e a expectativa de mercado é de que o Índice de Preços ao Consumidor Amplo (IPCA) tenha registrado alta anual de 4,54%, inferior aos 4,75% permitidos pelo Conselho Monetário Nacional (CMN) com a banda."
+        },
+        {
+            "id": 3,
+            "titulo": "Ibovespa recua com queda de papéis ligados a commodities e bancos",
+            "autor": "Reuters, por Patricia Vilas Boas",
+            "imagem": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEK080SV_L.jpg",
+            "texto": "SÃO PAULO (Reuters) - O Ibovespa fechou em queda nesta terça-feira, pressionado por recuo de papéis ligados a commodities e bancos, em dia de agenda econômica esvaziada e com investidores ainda em compasso de espera pelos dados de inflação nos Estados Unidos nesta semana.Índice de referência do mercado acionário brasileiro, o Ibovespa caiu 0.74%, a 131.446.59 pontos, tendo oscilado entre a mínima de 131.203.45 pontos e a máxima de 132.425,91 pontos durante a sessão. O volume financeiro somou 18,6 bilhões de reais."
+        },
+        {
+            "id": 4,
+            "titulo": "Arábia Saudita vende o equivalente a US$ 12 bilhões em títulos, a maior emissão desde 2017",
+            "autor": "Por Estadão Conteúdo",
+            "imagem": "https://i-invdn-com.investing.com/news/LYNXNPEE9L0DN_L.jpg",
+            "texto": "A Arábia Saudita vendeu o equivalente a US$ 12 bilhões em títulos na terça-feira, 9, na maior emissão do reino desde 2017, à medida que enfrenta custos crescentes para diversificar a sua economia longe do petróleo. O acordo em três partes inclui títulos com vencimento em 2030, 2034 e 2054. Os investidores enviaram ordens de US$ 30 bilhões no total. O nível da dívida pública do país, embora ainda pequeno em comparação com outros países, deverá aumentar para 26,9% do Produto Interno Bruto (PIB) até 2026, em comparação aos 24,8% do ano passado."
+        },
+        {
+            "id": 5,
+            "titulo": "UBS vê “pouso suave” nos EUA e Fed cortando juros em 1% em 2024",
+            "autor": "Investing.com, por Senad Karaahmetovic",
+            "imagem": "https://i-invdn-com.investing.com/news/LYNXNPEB6U08A_L.jpg",
+            "texto": "Investing.com – Solita Marcelli, diretora de Investimentos para Américas do UBS, teceu comentários sobre os mercados, após a valorização das ações e dos títulos de qualidade nos últimos meses nos EUA. O S&P 500 avançou 14% desde a mínima em outubro, e o rendimento dos títulos de 10 anos do Tesouro dos EUA recuou cerca de um ponto percentual desde a máxima em outubro. Essas dinâmicas de mercado refletem uma mudança no ambiente macroeconômico, no qual a inflação, os dados de crescimento econômico e as expectativas de taxa são fatores-chave na configuração do cenário de investimento. Nos últimos dois meses, observou-se uma inflação mais baixa do que o esperado nos EUA, bem como um crescimento sólido, com as vendas no varejo do país superando as projeções e um mercado de trabalho que segue forte."
+        }
+    ],
+    "users":[]
+}
