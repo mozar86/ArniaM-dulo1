@@ -1,24 +1,92 @@
+/* Importa a fonte 'Poppins' do Google Fonts para ser usada no documento */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+/* Configuração global para todos os elementos na página */
 * {
-    font-family: Arial,Helvetica,sans-serif;
-    padding: 0;
-    margin: 0;
+    padding: 0;               /* Define o preenchimento como 0 para todos os elementos */
+    margin: 0;                /* Define a margem como 0 para todos os elementos */
+    font-family: "Poppins", sans-serif;  /* Define a fonte para "Poppins" com fallback para sans-serif */
 }
 
+/* Estilos para o cabeçalho */
 header {
-    background-color: black;
-    padding-left: 3px;
+    padding: 8px;             /* Adiciona preenchimento ao cabeçalho */
+    width: 100%;              /* Define a largura como 100% da largura do elemento pai */
+    background-color: #6950A1; /* Define a cor de fundo como roxo (#6950A1) */
+    display: flex;            /* Usa o modelo de layout flexbox */
+    justify-content: space-between; /* Distribui o espaço entre os elementos filhos */
+    align-items: center;      /* Centraliza os itens verticalmente */
+    color: #fff;              /* Define a cor do texto como branco */
 }
 
-.post {
-    display: flex;
-    padding: 1em;
-    gap: 1em;
+/* Estilos para botões */
+button {
+    width: 159px;             /* Define a largura do botão */
+    height: 36px;             /* Define a altura do botão */
+    padding: 5px;             /* Adiciona preenchimento interno ao botão */
+    border-radius: 10px;      /* Adiciona bordas arredondadas */
+    margin-right: 20px;       /* Adiciona margem à direita */
+    font-size: 20px;          /* Define o tamanho da fonte */
+    line-height: 20px;        /* Define a altura da linha do texto */
+    cursor: pointer;          /* Altera o cursor para indicar que é clicável */
+    border: none;             /* Remove a borda padrão */
+    font-weight: 700;         /* Define a espessura da fonte como negrito */
+    background-color: #FBB04D; /* Define a cor de fundo como laranja (#FBB04D) */
+    color: #fff;              /* Define a cor do texto como branco */
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.24); /* Adiciona uma sombra ao botão */
 }
 
-h1 {
-    color: #1256a0;
-    font-size: 28px;
-    line-height: 33px;
-    margin: 0 9px;
-    font-weight: 700;
+/* Estilos para a classe .logo-arnia */
+.logo-arnia {
+    width: 128px;             /* Define a largura */
+    height: 38px;             /* Define a altura */
+    top: -439px;              /* Posicionamento vertical absoluto */
+    left: -743px;             /* Posicionamento horizontal absoluto */
+}
+
+/* Estilos para um contêiner geral */
+.container {
+    margin-top: 30px;         /* Adiciona margem superior */
+    margin-left: 15px;        /* Adiciona margem à esquerda */
+    width: 999px;             /* Define a largura */
+    border-radius: 10px;      /* Adiciona bordas arredondadas */
+    border: 1px solid #fff;   /* Adiciona uma borda sólida branca */
+
+}
+
+
+.id {
+    
+}
+
+
+.titulo {
+    
+}
+
+/* Estilos para a classe .autor */
+.autor {
+    margin-left: 10px;        /* Adiciona margem à esquerda */
+    font-size: 1.2rem;        /* Define o tamanho da fonte */
+}
+
+/* Estilos para a classe .img */
+.img {
+    width: 401px;             /* Define a largura */
+    height: 223px;            /* Define a altura */
+}
+
+/* Estilos para a classe .texto */
+.texto {
+    display: inline-block;    /* Define como bloco inline */
+    width: 480px;             /* Define a largura */
+    font-size: 14px;          /* Define o tamanho da fonte */
+    line-height: 21px;        /* Define a altura da linha do texto */
+}
+
+/* Estilos para um contêiner de texto específico */
+.container-texto {
+    display: flex;            /* Usa o modelo de layout flexbox */
+    align-items: center;      /* Centraliza os itens verticalmente */
+    gap: 30px;                /* Define o espaçamento entre os elementos filho */
 }
