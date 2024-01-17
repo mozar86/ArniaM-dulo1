@@ -7,7 +7,7 @@ const cadastrarNoticia = async (objeto) => {
             'Accept': 'application/json, text/plain, */*',
             'Content-Type': 'application/json' 
         },
-        body: JSON.stringify(objetoNoticia) //transforma o js em string
+        body: JSON.stringify(objetoNoticia) 
     }
 }
 
