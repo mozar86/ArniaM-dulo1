@@ -1,3 +1,13 @@
+// função chamada ao clicar no botão "Excluir" do item da listagem. Recebe o ID do livro clicado
+const excluirLivro = async (id) => {
+    console.log(id)
+    await fetch(`http://localhost:3000/livros/${id}`,{
+        method: 'DELETE'
+    })
+    carregarDados()
+}
+
+
 // função que busca livros na API
 const getLivros = async () => {
     const dados = await fetch('http://localhost:3000/livros')
@@ -8,6 +18,7 @@ const getLivros = async () => {
 
 const mostrarLivros = (listaLivros) => {
     const bodyTabela = document.querySelector('tbody')
+    bodyTabela.innerHTML = ''
 
     listaLivros.forEach(livro => {
         bodyTabela.innerHTML += 
@@ -17,7 +28,10 @@ const mostrarLivros = (listaLivros) => {
                 <td>${livro.titulo}</td>
                 <td>${livro.autor}</td>
                 <td>${livro.anoLancamento}</td>
-                <td><a href="html/editar.html?id=${livro.id}">Editar</a></td>
+                <td>
+                <a href="html/editar.html?id=${livro.id}">Editar</a>
+                <button onclick="excluirLivro('${livro.id}')">Excluir</button>
+                </td>
             </tr>
         `   
     })

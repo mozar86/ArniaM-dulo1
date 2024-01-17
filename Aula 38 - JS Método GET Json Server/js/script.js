@@ -30,14 +30,6 @@ const mostrarPosts = (posts) => {
 const carregarDados = async () => {
     // 1º Buscar os posts na API
     const postagens = await getPosts() // Aguardando a resposta da função getPosts para ir para a próxima linha
-    
-    /* Caso fosse tudo uma função só, a injeção ao HTML tbm estaria presente, assim:
-    const postsDiv = document.querySelector('.posts')
-
-    posts.forEach(post => {
-        postsDiv.innerHTML = postsDiv.innerHTML + `<div>${post.id} - ${post.titulo}</div>`
-    }) 
-    */
 
     /*4º Passo: a função mostrarPosts recebe como parâmetro a variável postagens, que está aguardando a execução da função getPosts. Isso garante que mostrar Posts só será executada quando getPosts já tiver retornado o conteúdo do objeto incluso na API*/
     mostrarPosts(postagens)

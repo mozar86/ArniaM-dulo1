@@ -6,6 +6,7 @@
     padding: 0;               /* Define o preenchimento como 0 para todos os elementos */
     margin: 0;                /* Define a margem como 0 para todos os elementos */
     font-family: "Poppins", sans-serif;  /* Define a fonte para "Poppins" com fallback para sans-serif */
+    box-sizing: border-box;
 }
 
 /* Estilos para o cabeçalho */

@@ -1,23 +1,16 @@
 {
-    "livros": [
-        {
-            "id": "1",
-            "titulo": "O senhor dos anéis",
-            "autor": "Autor Teste",
-            "anoLancamento": "2010"
-        },
-        {
-            "id": "2",
-            "titulo": "Pai rico pai pobre",
-            "autor": "Robert Kyiosaki",
-            "anoLancamento": "1998"
-        },
-        {
-            "id": "3",
-            "titulo": "Almanaque Abril",
-            "autor": "Autor Teste",
-            "anoLancamento": "2013"
-        }
-
-    ]
+  "livros": [
+    {
+      "id": "1",
+      "titulo": "O senhor dos anéis",
+      "autor": "Autor Teste",
+      "anoLancamento": "2010"
+    },
+    {
+      "id": "2",
+      "titulo": "Pai rico pai pobre",
+      "autor": "Robert Kyiosaki",
+      "anoLancamento": "1998"
+    }
+  ]
 }
