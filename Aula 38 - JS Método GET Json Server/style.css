@@ -46,7 +46,7 @@ button {
 }
 
 /* Estilos para um contêiner geral */
-.container {
+.posts {
     margin-top: 30px;         /* Adiciona margem superior */
     margin-left: 15px;        /* Adiciona margem à esquerda */
     width: 999px;             /* Define a largura */
@@ -55,24 +55,39 @@ button {
 
 }
 
-
-.id {
-    
+.container-cadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;         /* Adiciona preenchimento interno */
+    box-sizing: border-box;/* Inclui os preenchimentos *Interno e Padding no cálculo do Box Model*/    
 }
 
-
 .titulo {
-    
+    width: 669px;
+    height: 48px;
+    top: 2501px;
+    left: 1243px;
+    border-radius: 15px;
+    border: 1px;
 }
 
 /* Estilos para a classe .autor */
 .autor {
     margin-left: 10px;        /* Adiciona margem à esquerda */
     font-size: 1.2rem;        /* Define o tamanho da fonte */
+    width: 669px;
+    height: 48px;
+    top: 1209px;
+    left: -395px;
+    border-radius: 15px;
+    border: 1px;
 }
 
 /* Estilos para a classe .img */
 .img {
+    max-width: 100%;
     width: 401px;             /* Define a largura */
     height: 223px;            /* Define a altura */
 }
@@ -83,6 +98,15 @@ button {
     width: 480px;             /* Define a largura */
     font-size: 14px;          /* Define o tamanho da fonte */
     line-height: 21px;        /* Define a altura da linha do texto */
+}
+
+.botao-salvar {
+    width: 669px;
+    height: 55px;
+    top: 3146px;
+    left: 1243px;
+    border-radius: 25px;
+    background-color: #6950A1;
 }
 
 /* Estilos para um contêiner de texto específico */

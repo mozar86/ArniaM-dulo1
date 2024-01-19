@@ -9,27 +9,26 @@ const getPosts = async () => {
 /*3º Passo: A função mostrarPosts recebe o retorno da função getPosts, depois obtém do documento HTML uma div, depois percorre o objeto posts, e lança para a div do documento HTML os itens id e titulo do objeto posts.*/
 const mostrarPosts = (posts) => {
     const postsDiv = document.querySelector('.posts')
-
+    let conteudo = ''
     posts.forEach(post => {
-        postsDiv.innerHTML = postsDiv.innerHTML + 
+        conteudo = conteudo + 
         `
-        <div class="post">
             <div><img src="${post.imagem}"></div>
             <section>
-                <div><h2>${post.id}# BREAKING</h2></div> 
+                <div><h2>${post.id}</h2></div> 
                 <div><h1>${post.titulo}</h1></div> 
                 <div><h3>${post.autor}</h3></div>
                 <div><p>${post.texto}</p></div>
-            </section>  
-        </div>
+            </section
         `
     })
+    postsDiv.innerHTML = conteudo
 }
 
 /*1º Passo: A função carregar dados será executada, e irá aguardar o retorno da função getPosts, que está sendo salva na variável postagens*/
 const carregarDados = async () => {
     // 1º Buscar os posts na API
-    const postagens = await getPosts() // Aguardando a resposta da função getPosts para ir para a próxima linha
+    const postagens = await getPosts()// Aguardando a resposta da função getPosts para ir para a próxima linha
 
     /*4º Passo: a função mostrarPosts recebe como parâmetro a variável postagens, que está aguardando a execução da função getPosts. Isso garante que mostrar Posts só será executada quando getPosts já tiver retornado o conteúdo do objeto incluso na API*/
     mostrarPosts(postagens)

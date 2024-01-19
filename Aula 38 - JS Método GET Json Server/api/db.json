@@ -2,10 +2,10 @@
     "posts":[
         {
             "id": 1,
-            "titulo": "Dólar acompanha exterior e sobe ante real após três sessões",
-            "autor": "Reuters, por Fabricio de Castro",
-            "imagem": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEK080RH_L.jpg",
-            "texto": "SÃO PAULO (Reuters) - O dólar à vista fechou a terça-feira em alta no Brasil, interrompendo uma sequência de três sessões consecutivas de queda, com as cotações em sintonia com o avanço da moeda norte-americana ante as demais divisas no exterior, em um dia marcado por nova alta dos rendimentos dos títulos norte-americanos."
+            "titulo": "'Estamos mortos. É um golpe muito duro', diz Messi após derrota da Argentina",
+            "autor": "Mozar Lima",
+            "imagem": "../img/messi.png",
+            "texto": "O atacante Lionel Messi, da Argentina, usou palavras fortes para expressar a tristeza pela derrota por 2 a 1 para a Arábia Saudita, nesta terça-feira, na abertura do Grupo C da Copa do Mundo..."
         },
         {
             "id": 2,

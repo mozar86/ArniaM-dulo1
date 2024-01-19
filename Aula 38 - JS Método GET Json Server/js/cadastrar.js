@@ -7,7 +7,7 @@ const cadastrarNoticia = async (objeto) => {
             'Accept': 'application/json, text/plain, */*',
             'Content-Type': 'application/json' 
         },
-        body: JSON.stringify(objetoNoticia) 
+        body: JSON.stringify(objeto) 
     }
 }
 
@@ -27,5 +27,5 @@ formulario.addEventListener('submit', async (evento) => {
     }
     await cadastrarNoticia(objetoNoticia)
 
-    window.location = 'index.html'
+    window.location = '../index.html'
 })
