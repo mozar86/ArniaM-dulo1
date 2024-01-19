@@ -1,6 +1,8 @@
 const formulario = document.querySelector('#formulario')
 
 formulario.addEventListener('submit', (event) => {
+    event.preventDefault()
+    
     const codigo = formulario.elements["codigo"].value
     const nome = formulario.elements["nome"].value
     const preco = formulario.elements["preco"].value
