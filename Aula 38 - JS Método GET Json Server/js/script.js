@@ -13,13 +13,21 @@ const mostrarPosts = (posts) => {
     posts.forEach(post => {
         conteudo = conteudo + 
         `
-            <div><img src="${post.imagem}"></div>
-            <section>
-                <div><h2>${post.id}</h2></div> 
-                <div><h1>${post.titulo}</h1></div> 
-                <div><h3>${post.autor}</h3></div>
-                <div><p>${post.texto}</p></div>
-            </section
+            <div class="card">
+                <img src="${post.imagem}" alt="Imagem do post">
+                <section>
+                    <div class="post-header">
+                        <h1>${post.titulo}</h1>
+                        <h4>${post.autor}</h4>
+                    </div>
+                    <div class="post-content">
+                        <p>${post.texto}</p>
+                    </div>
+                    <div class="botoes">
+                        <button class="botao-excluir">Excluir</button><button class="botao-editar">Editar</button>
+                </div>
+                </section>
+            </div>
         `
     })
     postsDiv.innerHTML = conteudo
@@ -35,3 +43,7 @@ const carregarDados = async () => {
 }
 
 carregarDados() // Chama a função, que por estar fora do escopo de qualquer função, esta sim será executada.
+
+const redirectCadastrar = () => {
+    window.location.href = 'html/cadastrar.html'
+}

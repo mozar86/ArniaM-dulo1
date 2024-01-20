@@ -1,4 +1,6 @@
+//Salva na variável formulário, o item obtido da tag formulário através do ID
 const formulario = document.querySelector('#formulario')
+
 
 const cadastrarNoticia = async (objeto) => {
     await fetch('http://localhost:3000/posts'), {
@@ -29,3 +31,7 @@ formulario.addEventListener('submit', async (evento) => {
 
     window.location = '../index.html'
 })
+
+const redirectEsportes = () => {
+    window.location = '../index.html'
+}
