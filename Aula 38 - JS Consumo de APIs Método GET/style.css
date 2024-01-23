@@ -130,8 +130,16 @@ input {
     top: 1209px;
     border-radius: 15px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;    
 }
+
+input:focus {
+    outline: 4px solid rgb(32, 179, 228);
+  }
+
+  textarea:focus {
+    outline: 4px solid rgb(32, 179, 228);
+  }
 
 .titulo {
     width: 1440px;
@@ -167,6 +175,8 @@ input {
     border-radius: 15px;
     border: 1px solid #6950A1;
     margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 60px;
 }
 
 .botao-salvar {
@@ -195,15 +205,16 @@ input {
     height: 26px;
     top: 387px;
     left: 846px;
-    border: 1px;
-    border-radius: 5px;
-    border-color: #1E1E1E;    
+    border: 1px solid #1E1E1E;
+    border-radius: 5px;    
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .botao-editar {
@@ -219,6 +230,7 @@ input {
     line-height: 21px;
     letter-spacing: 0em;
     text-align: center;
-
+    display: flex;
+    align-items: center;
 }
 
