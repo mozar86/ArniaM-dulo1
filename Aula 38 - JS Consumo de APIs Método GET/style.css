@@ -131,6 +131,7 @@ input {
     border-radius: 15px;
     margin-top: 5px;
     margin-bottom: 10px;    
+    font-size: 18px;
 }
 
 input:focus {
@@ -158,7 +159,7 @@ input:focus {
     border: 1px solid #6950A1;
 }
 
-#img {
+.imagem {
     width: 669px;
     height: 48px;
     top: 1312px;
@@ -177,6 +178,7 @@ input:focus {
     margin-bottom: 20px;
     margin-top: 10px;
     margin-right: 60px;
+    font-size: 18px;
 }
 
 .botao-salvar {

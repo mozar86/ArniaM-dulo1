@@ -1,4 +1,5 @@
-const formulario = document.querySelector('#formulario') // Passo 1: salvar numa variável a requisição feita ao documento HTML
+// Passo 1: salvar numa variável a requisição feita ao documento HTML
+const formulario = document.querySelector('#formulario')
 
 // Passo 3: recebe como parâmetro o objeto e enviando-o para a API
 const cadastrarLivro = async (objeto) => {

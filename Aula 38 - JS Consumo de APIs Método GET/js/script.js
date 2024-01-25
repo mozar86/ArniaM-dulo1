@@ -24,7 +24,7 @@ const mostrarPosts = (posts) => {
                         <p>${post.texto}</p>
                     </div>
                     <div class="botoes">
-                        <button class="botao-excluir">Excluir</button><button class="botao-editar">Editar</button>
+                        <button class="botao-excluir" onclick="botaoExcluir()">Excluir</button><button class="botao-editar" onclick="botaoEditar()">Editar</button>
                 </div>
                 </section>
             </div>
@@ -47,3 +47,60 @@ carregarDados() // Chama a função, que por estar fora do escopo de qualquer fu
 const redirectCadastrar = () => {
     window.location.href = 'html/cadastrar.html'
 }
+
+//---------------------Botão EDITAR------------------------------//
+const editar = document.querySelector('#botao-editar');
+let id = null;
+
+const botaoEditar = () => {
+    editar.addEventListener('click', async (evento) => {
+        evento.preventDefault();
+
+        const titulo = editar.elements['titulo'].value;
+        const autor = editar.elements['autor'].value;
+        const imagem = editar.elements['imagem'].value;
+        const texto = editar.elements['texto'].value;
+
+        const objetoNoticia = {
+            titulo,
+            autor,
+            imagem,
+            texto
+        };
+
+        if (id !== null) {
+            await editarNoticia(id, objetoNoticia);
+            window.location = 'index.html';
+        } else {
+            console.error('ID não está definido. Não é possível editar a postagem de notícias.');
+        }
+    });
+};
+
+const editarNoticia = async (id, post) => {
+    await fetch(`http://localhost:3000/posts/${id}`, {
+        method: 'PUT',
+        headers: {
+            'Accept': 'application/json, text/plain, */*',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(post)
+    });
+};
+
+const obterPost = async (id) => {
+    const requisicaoPost = await fetch(`http://localhost:3000/posts/${id}`);
+    const post = await requisicaoPost.json();
+
+    return post;
+};
+
+//-------------------------------Botão EXCLUIR---------------------------//
+
+const excluir = async () => {
+    await fetch(`http://localhost:3000/posts${id}`, {
+        method: "DELETE"
+    })
+    carregarDados()
+}
+

@@ -36,35 +36,38 @@ const editarLivro = async (id, livro) => {
     })
 }
 
-//buscar o livro na API e retornar o livro
+//Passo 2: buscar o livro na API e retornar o livro
 const getLivro = async (id) => {
+    //Passo 2.2: requisitar a API passando o link da API com o ID
     const request = await fetch(`http://localhost:3000/livros/${id}`)
+    //Passo 2.3: Converter a requisição em JSON
     const livro = await request.json()
-
+    //Passo 2.4: retornar pra poder usar em outra função
     return livro
 }
 
-//carregar os dados no formulário 
+//Passo 3: carregar os dados no formulário, recebendo o livro como parâmetro da função
 const carregarLivroFormulario = (livro) => {
+
     document.querySelector('#titulo').value = livro.titulo
     document.querySelector('#autor').value = livro.autor
     document.querySelector('#ano').value = livro.anoLancamento
 }
 
+//Passo 1: Obter o ID vindo da URL do documento HTML
 const carregarDados = async () => {
-    //1º recupera parâmetros da URL (formato de string)
+    //Passo 1.2: recupera parâmetros da URL (formato de string)
     const parametros = window.location.search
     console.log(parametros)
-    //transforma os parametros para o formato de objeto da classe URLSearchParams
+    //Passo 1.3: transforma os parametros para o formato de objeto da classe URLSearchParams
     const objetoParametros = new URLSearchParams(parametros)
-    //acessa o parâmetro desejado (id)
+    //Passo 1.4: acessa o parâmetro desejado (id)
     id = objetoParametros.get('id')
     console.log(id)
-
-    //chama a função para buscar o livro na API 
+    //Passo 1.5: chama a função definida no Passo 2, para buscar o livro na API 
     const livro = await getLivro(id)
     console.log(livro)
-
+    //Passo 1.6: 
     carregarLivroFormulario(livro)
 }
 

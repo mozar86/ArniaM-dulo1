@@ -3,16 +3,17 @@ const formulario = document.querySelector('#formulario')
 
 
 const cadastrarNoticia = async (objeto) => {
-    await fetch('http://localhost:3000/posts'), {
+    await fetch('http://localhost:3000/posts', {
         method: 'POST',
         headers: { 
             'Accept': 'application/json, text/plain, */*',
             'Content-Type': 'application/json' 
         },
         body: JSON.stringify(objeto) 
-    }
+    })
 }
 
+//Adiciona um ouvinte de evento ao formulário que escuta o evento de envio
 formulario.addEventListener('submit', async (evento) => {
     evento.preventDefault()
 

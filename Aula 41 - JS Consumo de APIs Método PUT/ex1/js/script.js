@@ -22,6 +22,7 @@ const mostrarLivros = (listaLivros) => {
 
     listaLivros.forEach(livro => {
         bodyTabela.innerHTML += 
+        //Na primeira tag a, temos links que redirecionam para a página de edição
         `
             <tr>
                 <td>${livro.id}</td>
