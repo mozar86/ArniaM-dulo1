@@ -1,30 +1,31 @@
-//recuperando o formulário da página HTML através do DOM
+//Passo 5: recuperando o formulário da página HTML através do DOM
 const formulario = document.querySelector('#formulario')
 let id = null
 
+//Passo 6: adicionado um evento de envio ao formulário para 
 formulario.addEventListener('submit', async (e) => {    
-    e.preventDefault() // evitar que as informações do fomulario sejam enviadas pra URL
+    e.preventDefault() //Passo 6.2: evitar que as informações do fomulario sejam enviadas pra URL
 
-    //recuperar as informações do formulario
+    //Passo 6.3: recuperar as informações do formulario
     const titulo = formulario.elements['titulo'].value
     const autor = formulario.elements['autor'].value
     const ano = formulario.elements['ano'].value
 
-    //montar o objeto livro
+    //Passo 6.4: montar o objeto livro
     const objetoLivro = {
-        titulo, //titulo: titulo
+        titulo,
         autor, 
         anoLancamento: ano
     }
 
-    //chamar a função que edita o livro na API
+    //Passo 6.5: chamar a função que edita o livro na API
     await editarLivro(id, objetoLivro)
 
-    //redirecionar para a tela de listagem 
+    //Passo 6.6: redirecionar para a tela de listagem 
     window.location = '../index.html'
 })
 
-//editar o livro na API através do ID
+//Passo 4: editar o livro na API através do ID
 const editarLivro = async (id, livro) => {
     await fetch(`http://localhost:3000/livros/${id}`, {
         method: 'PUT',
