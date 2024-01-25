@@ -68,7 +68,7 @@ const carregarDados = async () => {
     //Passo 1.5: chama a função definida no Passo 2, para buscar o livro na API 
     const livro = await getLivro(id)
     console.log(livro)
-    //Passo 1.6: 
+    //Passo 1.6: chama a função definida no passo 3, para carregar os dados no formulário
     carregarLivroFormulario(livro)
 }
 
