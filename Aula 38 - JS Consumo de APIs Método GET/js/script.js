@@ -55,9 +55,10 @@ const botaoEditar = (id) =>{
 //---------------------Botão EXCLUIR---------------------------//
 
 const botaoExcluir = async (id) => {
-    await fetch(`http://localhost:3000/posts${id}`, {
+    await fetch(`http://localhost:3000/posts/${id}`, {
         method: "DELETE"
     })
+    console.log(id)
     carregarDados()
 }
 

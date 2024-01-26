@@ -1,14 +1,14 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "titulo": "IPCA tende a fechar 2023 abaixo do limite da meta após dois anos de rompimento",
       "autor": "Investing.com, por Jessica Bahia Melo",
       "imagem": "https://i-invdn-com.investing.com/news/LYNXMPEB12022_L.jpg",
       "texto": "Investing.com – A inflação ao consumidor brasileira deve ficar dentro da tolerância da meta em 2023, após dois anos de rompimento. O indicador de dezembro será divulgado nesta quinta, e a expectativa de mercado é de que o Índice de Preços ao Consumidor Amplo (IPCA) tenha registrado alta anual de 4,54%, inferior aos 4,75% permitidos pelo Conselho Monetário Nacional (CMN) com a banda."
     },
     {
-      "id": 2,
+      "id": "2",
       "titulo": "Ibovespa recua com queda de papéis ligados a commodities e bancos",
       "autor": "Reuters, por Patricia Vilas Boas",
       "imagem": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEK080SV_L.jpg",
