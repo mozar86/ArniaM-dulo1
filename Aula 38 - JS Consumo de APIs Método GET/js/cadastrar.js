@@ -33,6 +33,6 @@ formulario.addEventListener('submit', async (evento) => {
     window.location = '../index.html'
 })
 
-const redirectEsportes = () => {
+const redirectInicio = () => {
     window.location = '../index.html'
 }

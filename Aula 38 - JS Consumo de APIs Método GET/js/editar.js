@@ -62,3 +62,7 @@ const carregarId = async () => {
 }
 
 carregarId()
+
+const redirectInicio = () => {
+    window.location = '../index.html'
+}

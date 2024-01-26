@@ -53,6 +53,7 @@ button {
 }
 
 .card {
+    max-width: 100%;
     width: 999px;
     height: 324px;
     background-color: #fff;
@@ -67,6 +68,9 @@ button {
 }
 
 .card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
     width: 401px; /* Largura desejada */
     height: 223px; /* Altura desejada */
     object-fit: cover; /* Manter proporções e cortar se necessário */
@@ -102,6 +106,7 @@ button {
 
 .post-content p {
     color: #666;
+    width: 90%;
 }
 
 .container-cadastrar {
@@ -160,6 +165,7 @@ input:focus {
 }
 
 .imagem {
+    max-width: 401px;
     width: 669px;
     height: 48px;
     top: 1312px;
